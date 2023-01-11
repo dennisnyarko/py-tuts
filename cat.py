@@ -20,19 +20,31 @@
 #     print("meow")
 
 #loop using functions
-def main():
-    number = get_number()
-    meow(number)
+# def main():
+#     number = get_number()
+#     meow(number)
 
-def get_number():
-    while True:
-        n = int(input("WHat's n? "))
-        if n > 0:
-            break
-    return n
+# def get_number():
+#     while True:
+#         n = int(input("WHat's n? "))
+#         if n > 0:
+#             break
+#     return n
 
-def meow(n):
-    for _ in range(n):
-        print("meow")
+# def meow(n):
+#     for _ in range(n):
+#         print("meow")
 
-main()
+# main()
+
+#using lists
+# students = ["Hermoine", "Harry", "Ron"]
+
+# for student in students:
+#     print(student)
+
+students = ["Hermoine", "Harry", "Ron"]
+
+for i in range(len(students)):
+    print(i+1, students[i])
+    
