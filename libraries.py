@@ -1,4 +1,4 @@
-import random
+import statistics
 
 # coin = choice(["heads", "tails"])
 
@@ -10,8 +10,10 @@ import random
 
 
 #shuffle
-cards = ["jack", "queen", "king"]
-random.shuffle(cards)
+# cards = ["jack", "queen", "king"]
+# random.shuffle(cards)
 
-for card in cards:
-    print(card)
+# for card in cards:
+#     print(card)
+
+print(statistics.mean([100, 90]))
