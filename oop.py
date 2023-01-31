@@ -12,6 +12,7 @@ def main():
         student.name = input("Name: ")
         student.house = input("House: ")
         return student
+        
 
 
 if __name__ == "__main__":
