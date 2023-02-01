@@ -11,8 +11,9 @@ def main():
         student = Student()
         student.name = input("Name: ")
         student.house = input("House: ")
+        student = Student(name, house)
         return student
-        
+
 
 
 if __name__ == "__main__":
