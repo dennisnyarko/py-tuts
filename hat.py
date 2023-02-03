@@ -1,7 +1,7 @@
 import random
 
 class Hat:
-        houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
+    houses = ["Gryffindor", "Hufflepuff", "Ravenclaw", "Slytherin"]
 
     @classmethod
     def sort(cls, name): 
