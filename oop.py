@@ -8,7 +8,10 @@ class Student:
         return f"{self.name} from {self.house}"
 
     
-
+    def get(cls):
+        name = input("Name: ")
+        house = input("House: ")
+        return cls(name, house)
 
 def main():
     student = get_student()
