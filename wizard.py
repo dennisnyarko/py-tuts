@@ -5,11 +5,11 @@ class Wizard:
         self.name = name
 
 
-class Student:
+class Student(Wizard):
     def __init__(self, name, house):
         self.house = house
 
 
-class Professor:
+class Professor(Wizard):
     def __init__(self, name, subject):
         self.subject = subject
