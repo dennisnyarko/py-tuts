@@ -1,7 +1,6 @@
-def meow(n: int) -> str:
-    return "meow\n" * n
+import sys
 
-
-number: int = int(input("Number: "))
-meows: str = meow(number)
-print(meows, end="")
+if len(sys.argv) == 2:
+    print("meow")
+else:
+    print("usage: meows.py")
